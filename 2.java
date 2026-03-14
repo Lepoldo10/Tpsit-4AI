@@ -1,9 +1,11 @@
-
 public class Main {
     public static void main(String[] args) {
-        int numeroIntero = 42;
-        double numeroDecimale = 3.1;
-        String testo = "Ciao, Java!";
+        // Dichiarazione e assegnazione delle variabili
+        int numeroIntero = 10;          // variabile intera
+        double numeroDecimale = 20.5;   // variabile decimale
+        String testo = "Hello, Java!";  // variabile Stringa
+        
+        // Stampa delle variabili
         System.out.println("Valore intero: " + numeroIntero);
         System.out.println("Valore decimale: " + numeroDecimale);
         System.out.println("Testo: " + testo);
